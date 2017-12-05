@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ソース ファイル\ObjEnemy">
+      <UniqueIdentifier>{70257940-5254-443f-b69f-a3337a1d008e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameHead.h">
@@ -60,8 +63,11 @@
     <ClInclude Include="SceneMain.h">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
-    <ClInclude Include="ObjHeroPigMan.h">
-      <Filter>ソース ファイル</Filter>
+    <ClInclude Include="ObjEnemyHawk.h">
+      <Filter>ソース ファイル\ObjEnemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEnemyWolf.h">
+      <Filter>ソース ファイル\ObjEnemy</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
