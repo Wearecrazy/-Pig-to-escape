@@ -42,4 +42,4 @@ void CObjBackground::Draw()
 	Draw::Draw(1, &src, &dst, c, 0.0f);
 
 
-}
+}//‚P‚P‚Ì‚P‚O‚©‚ç

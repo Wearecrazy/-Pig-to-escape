@@ -113,12 +113,6 @@
     <ClCompile Include="SceneMain.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="ObjEnemyHawk.cpp">
-      <Filter>ソース ファイル\ObjEnemy</Filter>
-    </ClCompile>
-    <ClCompile Include="ObjEnemyWolf.cpp">
-      <Filter>ソース ファイル\ObjEnemy</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="GameL\Draw2DTex.hlsl">

@@ -149,8 +149,6 @@
     <ClCompile Include="GameL\UserData.cpp" />
     <ClCompile Include="GameL\WinInputs.cpp" />
     <ClCompile Include="ObjBackground.cpp" />
-    <ClCompile Include="ObjEnemyHawk.cpp" />
-    <ClCompile Include="ObjEnemyWolf.cpp" />
     <ClCompile Include="SceneMain.cpp" />
   </ItemGroup>
   <ItemGroup>
