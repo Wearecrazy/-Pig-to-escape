@@ -15,4 +15,7 @@ public :
 	void Draw();//ƒhƒ[
 private:
 
+	float m_x1;//”wŒi‚P‚ÌˆÊ’uî•ñ
+	float m_x2;//”wŒi‚Q‚ÌˆÊ’uî•ñ
+
 };
