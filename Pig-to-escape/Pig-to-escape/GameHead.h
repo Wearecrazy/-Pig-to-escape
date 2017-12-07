@@ -4,7 +4,8 @@
 enum OBJ_NAME
 {
 	OBJ_NO_NAME,	//オブジェクト名無し(禁止)
-	OBJ_BACKGROUND
+	OBJ_BACKGROUND,
+	OBJ_ENEMY,
 					//ゲームで使うオブジェクトの名前
 	//OBJ_○○と表記
 };
@@ -55,6 +56,7 @@ struct UserData
 
 //ゲームシーンクラスヘッダ------------------------
 #include "SceneMain.h"
+#include"ObjEnemyWolf.h"
 //-----------------------------------------------
 
 //シーンスタートクラス---------------------------
