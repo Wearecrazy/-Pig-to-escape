@@ -16,6 +16,9 @@
     <Filter Include="ソース ファイル\ObjEnemy">
       <UniqueIdentifier>{70257940-5254-443f-b69f-a3337a1d008e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Stage">
+      <UniqueIdentifier>{f63ddc77-2d79-4008-9b78-abd636d1184d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameHead.h">
@@ -72,6 +75,9 @@
     <ClInclude Include="ObjHeroPigMan.h">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="ObjBlock.h">
+      <Filter>ソース ファイル\Stage</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameL\Audio.cpp">
@@ -124,6 +130,9 @@
     </ClCompile>
     <ClCompile Include="ObjEnemyWolf.cpp">
       <Filter>ソース ファイル\ObjEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjBlock.cpp">
+      <Filter>ソース ファイル\Stage</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
