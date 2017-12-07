@@ -14,5 +14,5 @@ class CObjHeroPigMan : public CObj
 		void Action();		//アクション
 		void Draw();		//ドロー
 	private:
-	
+		
 }; 
