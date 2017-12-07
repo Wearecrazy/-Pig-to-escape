@@ -133,6 +133,7 @@
     <ClInclude Include="ObjBackground.h" />
     <ClInclude Include="ObjEnemyHawk.h" />
     <ClInclude Include="ObjEnemyWolf.h" />
+    <ClInclude Include="ObjHeroPigMan.h" />
     <ClInclude Include="SceneMain.h" />
   </ItemGroup>
   <ItemGroup>
@@ -149,6 +150,8 @@
     <ClCompile Include="GameL\UserData.cpp" />
     <ClCompile Include="GameL\WinInputs.cpp" />
     <ClCompile Include="ObjBackground.cpp" />
+    <ClCompile Include="ObjEnemyHawk.cpp" />
+    <ClCompile Include="ObjEnemyWolf.cpp" />
     <ClCompile Include="ObjHeroPigMan.cpp" />
     <ClCompile Include="SceneMain.cpp" />
   </ItemGroup>
