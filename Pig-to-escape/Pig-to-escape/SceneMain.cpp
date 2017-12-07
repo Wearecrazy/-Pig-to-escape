@@ -44,7 +44,9 @@ void CSceneMain::InitScene()
 	//タイム初期化
 	//m_time = 0;
 
-
+	//Test用　敵オブジェクト作成
+	CObjEnemy* obje = new CObjEnemy();
+	Objs::InsertObj(obje, OBJ_ENEMY, 10);
 
 
 }

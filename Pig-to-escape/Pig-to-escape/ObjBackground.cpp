@@ -9,12 +9,26 @@ using namespace GameL;
 //²Æ¼¬×²½Ş
 void CObjBackground::Init()
 {
+	m_x1 = 0.0f;
+	m_x2 = 800.0f;
 
 }
 
 //ƒAƒNƒVƒ‡ƒ“
 void CObjBackground::Action()
 {
+	//”wŒi‚P‚Ì“®ì
+	m_x1 -= 10.0f;
+	if (m_x1 < -800.0f)
+		m_x1 = 800;
+
+	//”wŒi‚Q‚Ì“®ì
+	m_x2 -= 10.0f;
+	if (m_x2 < -800.0f)
+		m_x2 = 800;
+
+
+
 
 }
 //ƒhƒ[
@@ -32,14 +46,24 @@ void CObjBackground::Draw()
 	src.m_right = 512.0f;
 	src.m_bottom = 448.0f;
 
-	//•\¦ˆÊ’u‚Ìİ’è
+	//”wŒi1‚ÌˆÊ’u‚ğİ’è‚µ•`‰æ
 	dst.m_top = 0.0f;
-	dst.m_left = 0.0f;
-	dst.m_right = 0.0f;
-	dst.m_bottom = 0.0f;
+	dst.m_left = 0.0f + m_x1;
+	dst.m_right = 800.0f + m_x1;
+	dst.m_bottom = 600.0f;
 
-	//0”Ô–Ú‚É“o˜^‚µ‚½ƒOƒ‰ƒtƒBƒbƒN‚ğsrcEdstEc‚Ìî•ñ‚ğŒ³‚É•`‰æ
 	Draw::Draw(1, &src, &dst, c, 0.0f);
+
+	//”wŒi‚QˆÊ’u‚Ìİ’è‚µ•`‰æ
+	dst.m_top = 0.0f;
+	dst.m_left = 0.0f + m_x2;
+	dst.m_right = 800.0f + m_x2;
+	dst.m_bottom = 600.0f;
+	Draw::Draw(1, &src, &dst, c, 0.0f);
+
+
+
+
 
 
 }//‚P‚P‚Ì‚P‚O‚©‚ç
