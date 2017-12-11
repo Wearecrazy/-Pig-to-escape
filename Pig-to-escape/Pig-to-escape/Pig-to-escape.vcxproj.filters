@@ -75,6 +75,12 @@
     <ClInclude Include="ObjHeroPigMan.h">
       <Filter>ソース ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="ObjBlock.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjBackground.h">
+      <Filter>ソース ファイル\haikei</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameL\Audio.cpp">
@@ -124,6 +130,12 @@
     </ClCompile>
     <ClCompile Include="ObjEnemyWolf.cpp">
       <Filter>ソース ファイル\ObjEnemy</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjBlock.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjBackground.cpp">
+      <Filter>ソース ファイル\haikei</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
