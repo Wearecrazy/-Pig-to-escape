@@ -23,7 +23,10 @@
       <UniqueIdentifier>{d7ee1173-2add-41ee-b85e-57b320fec405}</UniqueIdentifier>
     </Filter>
     <Filter Include="ソース ファイル\Hero">
-      <UniqueIdentifier>{fba11fb2-0d97-4314-baa5-2a0b656cdca4}</UniqueIdentifier>
+      <UniqueIdentifier>{c6924f9b-640f-4c93-a98a-ef4ecdf02e38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\stage">
+      <UniqueIdentifier>{d8c6ed7a-b1e0-4caf-ad24-11b3ec661531}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -76,25 +79,13 @@
       <Filter>ソース ファイル\ObjEnemy</Filter>
     </ClInclude>
     <ClInclude Include="ObjBackground.h">
-      <Filter>ヘッダー ファイル</Filter>
+      <Filter>ソース ファイル\haikei</Filter>
     </ClInclude>
     <ClInclude Include="ObjBlock.h">
-      <Filter>ヘッダー ファイル</Filter>
+      <Filter>ソース ファイル\stage</Filter>
     </ClInclude>
     <ClInclude Include="ObjHeroPigMan.h">
       <Filter>ソース ファイル\Hero</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjBlock.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjBackground.h">
-      <Filter>ソース ファイル\haikei</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjBackground.h">
-      <Filter>ヘッダー ファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjBlock.h">
-      <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -144,10 +135,10 @@
       <Filter>ソース ファイル\ObjEnemy</Filter>
     </ClCompile>
     <ClCompile Include="ObjBackground.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\haikei</Filter>
     </ClCompile>
     <ClCompile Include="ObjBlock.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\stage</Filter>
     </ClCompile>
     <ClCompile Include="ObjHeroPigMan.cpp">
       <Filter>ソース ファイル\Hero</Filter>
