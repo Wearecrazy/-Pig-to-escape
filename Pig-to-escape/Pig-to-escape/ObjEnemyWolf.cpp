@@ -2,6 +2,7 @@
 #include"GameL\DrawTexture.h"
 #include"GameL\WinInputs.h"
 #include"GameL\SceneObjManager.h"
+#include"GameL\HitBoxManager.h"
 
 #include"GameHead.h"
 #include"ObjEnemyWolf.h"
