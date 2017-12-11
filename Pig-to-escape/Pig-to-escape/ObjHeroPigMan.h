@@ -20,7 +20,7 @@ class CObjHeroPigMan : public CObj
 		float GetVX() { return m_vx; }
 
 		void SetX(float x) { m_px = x; }
-		void SetX(float y) { m_py = y; }
+		void SetY(float y) { m_py = y; }
 		void SetVY(float vy) { m_vy = vy; }
 		void SetVX(float vx) { m_vy = vx; }
 

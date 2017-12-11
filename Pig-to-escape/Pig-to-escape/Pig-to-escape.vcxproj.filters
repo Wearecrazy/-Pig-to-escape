@@ -87,8 +87,17 @@
     <ClInclude Include="ObjHeroPigMan.h">
       <Filter>ソース ファイル\Hero</Filter>
     </ClInclude>
-    <ClInclude Include="SceneClear.h">
-      <Filter>ソース ファイル\GameClear</Filter>
+    <ClInclude Include="ObjBlock.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjBackground.h">
+      <Filter>ソース ファイル\haikei</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjBackground.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjBlock.h">
+      <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
