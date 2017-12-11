@@ -6,6 +6,8 @@ enum OBJ_NAME
 	OBJ_NO_NAME,	//オブジェクト名無し(禁止)
 	OBJ_BACKGROUND,
 	OBJ_ENEMY,
+	OBJ_TITLE,
+	OBJ_GAME_OVER,
 					//ゲームで使うオブジェクトの名前
 	//OBJ_○○と表記
 };
@@ -53,14 +55,18 @@ struct UserData
 //ゲームシーンオブジェクトヘッダ------------------
 #include"ObjHeroPigMan.h"
 #include "ObjBackground.h"
+#include "ObjTitle.h"
+#include "ObjGameOver.h"
 //------------------------------------------------
 
 //ゲームシーンクラスヘッダ------------------------
 #include "SceneMain.h"
 #include"ObjEnemyWolf.h"
+#include "SceneTitle.h"
+#include "SceneGameOver.h"
 //-----------------------------------------------
 
 //シーンスタートクラス---------------------------
 //ゲーム開始時のシーンクラス登録
-//#define SET_GAME_START  
+//#define SET_GAME_START CSceneGameOver 
 //-----------------------------------------------

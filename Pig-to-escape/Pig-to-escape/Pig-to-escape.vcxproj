@@ -134,8 +134,12 @@
     <ClInclude Include="ObjBlock.h" />
     <ClInclude Include="ObjEnemyHawk.h" />
     <ClInclude Include="ObjEnemyWolf.h" />
+    <ClInclude Include="ObjGameOver.h" />
     <ClInclude Include="ObjHeroPigMan.h" />
+    <ClInclude Include="ObjTitle.h" />
+    <ClInclude Include="SceneGameOver.h" />
     <ClInclude Include="SceneMain.h" />
+    <ClInclude Include="SceneTitle.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameL\Audio.cpp" />
@@ -154,8 +158,10 @@
     <ClCompile Include="ObjBlock.cpp" />
     <ClCompile Include="ObjEnemyHawk.cpp" />
     <ClCompile Include="ObjEnemyWolf.cpp" />
+    <ClCompile Include="ObjGameOver.cpp" />
     <ClCompile Include="ObjHeroPigMan.cpp" />
     <ClCompile Include="SceneMain.cpp" />
+    <ClCompile Include="SceneTitle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="GameL\Draw2DTex.hlsl" />
