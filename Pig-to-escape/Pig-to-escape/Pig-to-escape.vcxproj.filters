@@ -25,6 +25,9 @@
     <Filter Include="ソース ファイル\Hero">
       <UniqueIdentifier>{fba11fb2-0d97-4314-baa5-2a0b656cdca4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\GameClear">
+      <UniqueIdentifier>{3d1a875e-7452-42d2-b986-b72bae953273}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameHead.h">
@@ -84,6 +87,9 @@
     <ClInclude Include="ObjHeroPigMan.h">
       <Filter>ソース ファイル\Hero</Filter>
     </ClInclude>
+    <ClInclude Include="SceneClear.h">
+      <Filter>ソース ファイル\GameClear</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameL\Audio.cpp">
@@ -139,6 +145,9 @@
     </ClCompile>
     <ClCompile Include="ObjHeroPigMan.cpp">
       <Filter>ソース ファイル\Hero</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneClear.cpp">
+      <Filter>ソース ファイル\GameClear</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
