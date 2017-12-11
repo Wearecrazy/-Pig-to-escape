@@ -22,6 +22,9 @@
     <Filter Include="ソース ファイル\GameTitle">
       <UniqueIdentifier>{d7ee1173-2add-41ee-b85e-57b320fec405}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\Hero">
+      <UniqueIdentifier>{fba11fb2-0d97-4314-baa5-2a0b656cdca4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameHead.h">
@@ -72,8 +75,14 @@
     <ClInclude Include="ObjEnemyWolf.h">
       <Filter>ソース ファイル\ObjEnemy</Filter>
     </ClInclude>
+    <ClInclude Include="ObjBackground.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjBlock.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
     <ClInclude Include="ObjHeroPigMan.h">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\Hero</Filter>
     </ClInclude>
     <ClInclude Include="ObjBlock.h">
       <Filter>ヘッダー ファイル</Filter>
@@ -122,20 +131,20 @@
     <ClCompile Include="SceneMain.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="ObjHeroPigMan.cpp">
-      <Filter>ソース ファイル</Filter>
-    </ClCompile>
     <ClCompile Include="ObjEnemyHawk.cpp">
       <Filter>ソース ファイル\ObjEnemy</Filter>
     </ClCompile>
     <ClCompile Include="ObjEnemyWolf.cpp">
       <Filter>ソース ファイル\ObjEnemy</Filter>
     </ClCompile>
+    <ClCompile Include="ObjBackground.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
     <ClCompile Include="ObjBlock.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
-    <ClCompile Include="ObjBackground.cpp">
-      <Filter>ソース ファイル\haikei</Filter>
+    <ClCompile Include="ObjHeroPigMan.cpp">
+      <Filter>ソース ファイル\Hero</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
