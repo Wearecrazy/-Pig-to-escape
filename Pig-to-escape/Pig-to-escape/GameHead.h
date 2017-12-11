@@ -53,6 +53,7 @@ struct UserData
 //------------------------------------------------
 
 //ゲームシーンオブジェクトヘッダ------------------
+#include"ObjHeroPigMan.h"
 #include "ObjBackground.h"
 #include "ObjTitle.h"
 #include "ObjGameOver.h"

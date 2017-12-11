@@ -31,7 +31,7 @@ void CObjBackground::Action()
 
 
 }
-//ドロー
+//ドロ
 void CObjBackground::Draw()
 {
 	//描画カラー情報　R=RED G=Green B=Blue A=alpha(透過情報)
