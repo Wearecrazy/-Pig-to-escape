@@ -3,6 +3,7 @@
 #include"GameL\WinInputs.h"
 #include"GameL\SceneManager.h"
 #include"GameL\HitBoxManager.h"
+#include"ObjBlock.h"
 
 #include "GameHead.h"
 #include "ObjHeroPigMan.h"
@@ -33,7 +34,7 @@ void CObjHeroPigMan::Init()
 
 	m_block_type = 0;	//踏んでいるblockの種類を確認用
 
-	Hits::SetHitBox(this, m_px, m_py, 64, 64, ELEMENT_PLAYER, OBJ_HERO, 1);
+	Hits::SetHitBox(this, m_px, m_py, 64, 64, ELEMENT_PLAYER, OBJ_HERO_PIGMAN, 1);
 }
 
 //アクション
@@ -102,11 +103,11 @@ void CObjHeroPigMan::Action()
 	CHitBox* hit = Hits::GetHitBox(this);
 
 	//敵と当たっているか確認
-	if (hit->CheckObjNameHit(OBJ_ENEMYWOLF) != nullptr)
+	if (hit->CheckObjNameHit(OBJ_ENEMY_WOLF) != nullptr)
 	{
 		//主人公が敵とどの角度で当たっているかを確認
 		HIT_DATA** hit_data;
-		hit_data = hit->SearchObjNameHit(OBJ_ENEMYWOLF);
+		hit_data = hit->SearchObjNameHit(OBJ_ENEMY_WOLF);
 
 		for (int i = 0; i < hit->GetCount(); i++)
 		{
