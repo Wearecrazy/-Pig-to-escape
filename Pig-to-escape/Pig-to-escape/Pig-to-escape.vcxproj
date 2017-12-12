@@ -132,11 +132,13 @@
     <ClInclude Include="main.h" />
     <ClInclude Include="ObjBackground.h" />
     <ClInclude Include="ObjBlock.h" />
+    <ClInclude Include="ObjClear.h" />
     <ClInclude Include="ObjEnemyHawk.h" />
     <ClInclude Include="ObjEnemyWolf.h" />
     <ClInclude Include="ObjGameOver.h" />
     <ClInclude Include="ObjHeroPigMan.h" />
     <ClInclude Include="ObjTitle.h" />
+    <ClInclude Include="SceneClear.h" />
     <ClInclude Include="SceneGameOver.h" />
     <ClInclude Include="SceneMain.h" />
     <ClInclude Include="SceneTitle.h" />
@@ -156,11 +158,13 @@
     <ClCompile Include="GameL\WinInputs.cpp" />
     <ClCompile Include="ObjBackground.cpp" />
     <ClCompile Include="ObjBlock.cpp" />
+    <ClCompile Include="ObjClear.cpp" />
     <ClCompile Include="ObjEnemyHawk.cpp" />
     <ClCompile Include="ObjEnemyWolf.cpp" />
     <ClCompile Include="ObjGameOver.cpp" />
     <ClCompile Include="ObjHeroPigMan.cpp" />
     <ClCompile Include="ObjTitle.cpp" />
+    <ClCompile Include="SceneClear.cpp" />
     <ClCompile Include="SceneGameOver.cpp" />
     <ClCompile Include="SceneMain.cpp" />
     <ClCompile Include="SceneTitle.cpp" />
