@@ -99,8 +99,11 @@
     <ClInclude Include="ObjGameOver.h">
       <Filter>ソース ファイル\GameTitle</Filter>
     </ClInclude>
-    <ClInclude Include="ObjEnemyFarmer.h">
-      <Filter>ソース ファイル\ObjEnemy</Filter>
+    <ClInclude Include="SceneClear.h">
+      <Filter>ソース ファイル\GameTitle</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjClear.h">
+      <Filter>ソース ファイル</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -169,9 +172,6 @@
     </ClCompile>
     <ClCompile Include="SceneGameOver.cpp">
       <Filter>ソース ファイル\GameTitle</Filter>
-    </ClCompile>
-    <ClCompile Include="ObjEnemyFarmer.cpp">
-      <Filter>ソース ファイル\ObjEnemy</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

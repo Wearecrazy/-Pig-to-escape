@@ -4,39 +4,47 @@
 #include "GameL\SceneManager.h"
 
 #include "GameHead.h"
-#include "ObjTitle.h"
+#include "ObjClear.h"
 
 //使用するネームスペース
 using namespace GameL;
 
 //イニシャライズ
-void CObjTitle::Init()
+void CObjClear::Init()
 {
 	m_key_flag = false;
-}
 
+}
 //アクション
-void CObjTitle::Action()
+void CObjClear::Action()
 {
-	//エンターキーを押してシーン：ゲームメインに行こうする
+	//エンターキーを押してシーン：タイトルに移行する
 	if (Input::GetVKey(VK_RETURN) == true)
 	{
-		Scene::SetScene(new CSceneMain());
-		m_key_flag = false;
+		if (m_key_flag == true)
+		{
+			Scene::SetScene(new CSceneTitle());
+			m_key_flag = false;
+
+		}
 	}
 	else
 	{
 		m_key_flag = true;
 	}
 
-
-
 }
-
 //ドロー
-void CObjTitle::Draw()
+void CObjClear::Draw()
 {
+
 	float c[4] = { 1.0f,1.0f,1.0f,1.0f };
-	Font::StrDraw(L"Pig-to-escape",230,250,32,c);
-	Font::StrDraw(L"GameStart:PushEnterKey", 200, 400, 32, c);
+
+	Font::StrDraw(L"卍",224,250,16,c);
+	Font::StrDraw(L"卍",230,270,16,c);
+
+
+	Font::StrDraw(L"ｵﾜﾘ", 340, 300, 64, c);
+
+
 }

@@ -46,9 +46,9 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v140</PlatformToolset>
+    <PlatformToolset>v100</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
@@ -132,12 +132,13 @@
     <ClInclude Include="main.h" />
     <ClInclude Include="ObjBackground.h" />
     <ClInclude Include="ObjBlock.h" />
-    <ClInclude Include="ObjEnemyFarmer.h" />
+    <ClInclude Include="ObjClear.h" />
     <ClInclude Include="ObjEnemyHawk.h" />
     <ClInclude Include="ObjEnemyWolf.h" />
     <ClInclude Include="ObjGameOver.h" />
     <ClInclude Include="ObjHeroPigMan.h" />
     <ClInclude Include="ObjTitle.h" />
+    <ClInclude Include="SceneClear.h" />
     <ClInclude Include="SceneGameOver.h" />
     <ClInclude Include="SceneMain.h" />
     <ClInclude Include="SceneTitle.h" />
@@ -157,12 +158,12 @@
     <ClCompile Include="GameL\WinInputs.cpp" />
     <ClCompile Include="ObjBackground.cpp" />
     <ClCompile Include="ObjBlock.cpp" />
-    <ClCompile Include="ObjEnemyFarmer.cpp" />
     <ClCompile Include="ObjEnemyHawk.cpp" />
     <ClCompile Include="ObjEnemyWolf.cpp" />
     <ClCompile Include="ObjGameOver.cpp" />
     <ClCompile Include="ObjHeroPigMan.cpp" />
     <ClCompile Include="ObjTitle.cpp" />
+    <ClCompile Include="SceneClear.cpp" />
     <ClCompile Include="SceneGameOver.cpp" />
     <ClCompile Include="SceneMain.cpp" />
     <ClCompile Include="SceneTitle.cpp" />
