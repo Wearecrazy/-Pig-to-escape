@@ -103,7 +103,7 @@
       <Filter>ソース ファイル\GameTitle</Filter>
     </ClInclude>
     <ClInclude Include="ObjClear.h">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\GameTitle</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -177,7 +177,7 @@
       <Filter>ソース ファイル\GameTitle</Filter>
     </ClCompile>
     <ClCompile Include="ObjClear.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\GameTitle</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
