@@ -8,11 +8,13 @@ using namespace GameL;
 class CObjEnemy : public CObj
 {
 public:
-	CObjEnemy() {};
+	CObjEnemy(float x,float y);
 	~CObjEnemy() {};
 	void Init();	//イニシャライズ
 	void Action();	//アクション
 	void Draw();	//ドロー
+
+	float GetVx() { return m_vx; }
 
 private:
 	float m_px;	//位置

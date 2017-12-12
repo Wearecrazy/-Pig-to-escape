@@ -30,7 +30,7 @@ CSceneTitle::~CSceneTitle()
 void CSceneTitle::InitScene()
 {
 	//出力させる文字のグラフィックを作成
-	Font::SetStrTex(L"pig-to-escape");
+	Font::SetStrTex(L"Pig-to-escape");
 
 //タイトルオブジェクト作成
 	CObjTitle* obj = new CObjTitle();//タイトルオブジェクト作成
