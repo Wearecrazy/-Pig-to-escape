@@ -12,7 +12,7 @@ using namespace GameL;
 //使用ヘッダー
 #include "SceneClear.h"
 #include "GameHead.h"
-
+#include"ObjClear.h"
 //コンストラクタ
 CSceneClear::CSceneClear()
 {

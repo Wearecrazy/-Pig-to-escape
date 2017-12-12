@@ -12,6 +12,7 @@ enum OBJ_NAME
 	OBJ_HERO_PIGMAN,//主人公
 	OBJ_BLOCK,//ブロック
 	OBJ_STAGE,
+	OBJ_CLEAR,
 
 					//ゲームで使うオブジェクトの名前
 	//OBJ_○○と表記

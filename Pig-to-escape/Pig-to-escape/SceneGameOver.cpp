@@ -17,10 +17,11 @@ CSceneGameOver::CSceneGameOver()
 }
 
 
-}
+
 //デストラクタ
 CSceneGameOver::~CSceneGameOver()
 {
+}
 
 
 //初期化メソッド
