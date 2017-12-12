@@ -3,7 +3,7 @@
 #include"GameL\WinInputs.h"
 #include"GameL\SceneObjManager.h"
 #include"GameL\HitBoxManager.h"
-
+#include"ObjBlock.h"
 #include"GameHead.h"
 #include"ObjEnemyWolf.h"
 
@@ -11,7 +11,7 @@
 using namespace GameL;
 
 //イニシャライズ
-void CObjEnemy::Init()
+void CObjEnemyWolf::Init()
 {
 	m_px = 100.0f;		//位置
 	m_py = 0.0f;
@@ -36,7 +36,7 @@ void CObjEnemy::Init()
 }
 
 //アクション
-void CObjEnemy::Action()
+void CObjEnemyWolf::Action()
 {
 	//落下
 	if (m_py > 1000.0f)
@@ -110,7 +110,7 @@ void CObjEnemy::Action()
 }
 
 //ドロー
-void CObjEnemy::Draw()
+void CObjEnemyWolf::Draw()
 {
 	int AniData[4]=
 	{
@@ -118,12 +118,8 @@ void CObjEnemy::Draw()
 	};
 
 
-	/*------------------------------------------------------------
 
-	ここはあとからいろいろと設定
-
-
-	//描画カラー情報
+/*	//描画カラー情報
 	float c[4] = { 1.0f,1.0f,1.0f,1.0f };
 
 	RECT_F src;//描画元切り取り位置
