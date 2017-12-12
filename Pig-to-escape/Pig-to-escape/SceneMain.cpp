@@ -64,6 +64,10 @@ void CSceneMain::InitScene()
 	CObjEnemyWolf* obje = new CObjEnemyWolf();
 	Objs::InsertObj(obje, OBJ_ENEMY_WOLF, 10);
 
+	//Test用　敵オブジェクト作成
+	obje = new CObjEnemy();
+	Objs::InsertObj(obje, OBJ_ENEMYWOLF, 10);
+
 
 }
 

@@ -5,29 +5,24 @@
 using namespace GameL;
 
 //オブジェクト：敵
-class CObjEnemyWolf : public CObj
+class CObjEnemyFarmer : public CObj
 {
 public:
-	CObjEnemyWolf() {};
-	~CObjEnemyWolf() {};
+	CObjEnemyFarmer(float x, float y);//コンストラクタ
+	~CObjEnemyFarmer() {};
 	void Init();	//イニシャライズ
 	void Action();	//アクション
 	void Draw();	//ドロー
-
-	float GetVx() { return m_vx; }
-
 private:
-	float m_px;	//位置
-	float m_py;
-	float m_vx;	//移動ベクトル
-	float m_vy;
-	float m_posture;//姿勢
+	float m_x;		//農家のX位置
+	float m_y;		//農家のY位置
+	float m_vx;		//農家の移動ベクトルX
+	float m_vy;		//農家の移動ベクトルY
 
 	int m_ani_time;	//アニメーションフレーム動作間隔
 	int m_ani_frame;//作画フレーム
-
-	float m_speed_powr; //スピードパワー
 	float m_ani_max_time;//アニメーション動作間隔最大値
+	float m_speed_powr; //スピードパワー
 
 	//blockとの衝突状態確認用
 	bool m_hit_up;
@@ -37,5 +32,4 @@ private:
 
 	//移動向き制御用
 	bool m_move;
-
 };
