@@ -5,11 +5,11 @@
 using namespace GameL;
 
 //オブジェクト：敵
-class CObjEnemy : public CObj
+class CObjEnemyWolf : public CObj
 {
 public:
-	CObjEnemy() {};
-	~CObjEnemy() {};
+	CObjEnemyWolf() {};
+	~CObjEnemyWolf() {};
 	void Init();	//イニシャライズ
 	void Action();	//アクション
 	void Draw();	//ドロー
