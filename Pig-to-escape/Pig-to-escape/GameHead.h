@@ -63,6 +63,11 @@ struct UserData
 #include "ObjBackground.h"
 #include "ObjTitle.h"
 #include "ObjGameOver.h"
+#include"ObjClear.h"
+#include"ObjBlock.h"
+#include"ObjEnemyWolf.h"
+#include"ObjEnemyHawk.h"
+#include"ObjStage.h"
 //------------------------------------------------
 
 //ゲームシーンクラスヘッダ------------------------
@@ -73,4 +78,4 @@ struct UserData
 
 //シーンスタートクラス---------------------------
 //ゲーム開始時のシーンクラス登録
-//#define SET_GAME_START CSceneTitle------------------
+#define SET_GAME_START CSceneTitle
