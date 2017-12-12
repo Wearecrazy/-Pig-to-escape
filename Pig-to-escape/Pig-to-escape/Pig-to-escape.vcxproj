@@ -132,6 +132,7 @@
     <ClInclude Include="main.h" />
     <ClInclude Include="ObjBackground.h" />
     <ClInclude Include="ObjBlock.h" />
+    <ClInclude Include="ObjEnemyFarmer.h" />
     <ClInclude Include="ObjEnemyHawk.h" />
     <ClInclude Include="ObjEnemyWolf.h" />
     <ClInclude Include="ObjGameOver.h" />
@@ -156,6 +157,7 @@
     <ClCompile Include="GameL\WinInputs.cpp" />
     <ClCompile Include="ObjBackground.cpp" />
     <ClCompile Include="ObjBlock.cpp" />
+    <ClCompile Include="ObjEnemyFarmer.cpp" />
     <ClCompile Include="ObjEnemyHawk.cpp" />
     <ClCompile Include="ObjEnemyWolf.cpp" />
     <ClCompile Include="ObjGameOver.cpp" />
