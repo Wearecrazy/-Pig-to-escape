@@ -158,7 +158,6 @@
     <ClCompile Include="GameL\WinInputs.cpp" />
     <ClCompile Include="ObjBackground.cpp" />
     <ClCompile Include="ObjBlock.cpp" />
-    <ClCompile Include="ObjClear.cpp" />
     <ClCompile Include="ObjEnemyHawk.cpp" />
     <ClCompile Include="ObjEnemyWolf.cpp" />
     <ClCompile Include="ObjGameOver.cpp" />
