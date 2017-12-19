@@ -105,6 +105,12 @@
     <ClInclude Include="ObjClear.h">
       <Filter>ソース ファイル\GameTitle</Filter>
     </ClInclude>
+    <ClInclude Include="CObjHomingEnemy.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilityModule.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameL\Audio.cpp">
@@ -176,8 +182,11 @@
     <ClCompile Include="SceneClear.cpp">
       <Filter>ソース ファイル\GameTitle</Filter>
     </ClCompile>
-    <ClCompile Include="ObjClear.cpp">
-      <Filter>ソース ファイル\GameTitle</Filter>
+    <ClCompile Include="CObjHomingEnemy.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilityModule.cpp">
+      <Filter>ソース ファイル</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

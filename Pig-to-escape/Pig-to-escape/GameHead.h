@@ -13,7 +13,7 @@ enum OBJ_NAME
 	OBJ_BLOCK,//ブロック
 	OBJ_STAGE,
 	OBJ_CLEAR,
-
+	OBJ_HOMING_ENEMY,
 					//ゲームで使うオブジェクトの名前
 	//OBJ_○○と表記
 };
@@ -68,6 +68,7 @@ struct UserData
 #include"ObjEnemyWolf.h"
 #include"ObjEnemyHawk.h"
 #include"ObjStage.h"
+#include "CObjHomingEnemy.h"
 //------------------------------------------------
 
 //ゲームシーンクラスヘッダ------------------------

@@ -117,6 +117,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CObjHomingEnemy.h" />
     <ClInclude Include="GameHead.h" />
     <ClInclude Include="GameL\Audio.h" />
     <ClInclude Include="GameL\DirectXDevice.h" />
@@ -142,8 +143,10 @@
     <ClInclude Include="SceneGameOver.h" />
     <ClInclude Include="SceneMain.h" />
     <ClInclude Include="SceneTitle.h" />
+    <ClInclude Include="UtilityModule.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CObjHomingEnemy.cpp" />
     <ClCompile Include="GameL\Audio.cpp" />
     <ClCompile Include="GameL\DirectXDevice.cpp" />
     <ClCompile Include="GameL\DrawFont.cpp" />
@@ -167,6 +170,7 @@
     <ClCompile Include="SceneGameOver.cpp" />
     <ClCompile Include="SceneMain.cpp" />
     <ClCompile Include="SceneTitle.cpp" />
+    <ClCompile Include="UtilityModule.cpp" />
   </ItemGroup>
   <ItemGroup>
     <FxCompile Include="GameL\Draw2DTex.hlsl" />
