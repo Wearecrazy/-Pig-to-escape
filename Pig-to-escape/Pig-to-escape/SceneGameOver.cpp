@@ -21,6 +21,7 @@ CSceneGameOver::CSceneGameOver()
 //デストラクタ
 CSceneGameOver::~CSceneGameOver()
 {
+
 }
 
 
